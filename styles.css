@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    border: 0;
+    background-color: #F8F6E9;
+    font-family: 'Open Sans';
+    color: #590209;
+}
+nav{
+    position: fixed;
+    display: flex;
+    margin-top: 1%;
+    width: 100vw;
+}
+nav a:hover{
+    border-bottom: 3px solid black;
+}
+section{
+    display: flex;
+    height: 100vh;
+    text-align: center;
+}
+img{
+    height: 500px;
+    width: 100vw;
+}
+#dos,#siete{
+    flex-direction: row-reverse;
+}
+section img{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+#triangulo {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 25px solid #590209;
+    transform: rotate(90deg);
+    margin-right: 10px;
+}
+#circulo {
+    position: relative; 
+    top: 12px;
+    left: -5px;
+    background: #F8F6E9;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+a{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    background-color: #F8F6E9;
+    color: #590209;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2vw;
+    text-decoration: none;
+}
+nav a:nth-child(1){
+    font-family: 'Merienda';
+}
+nav a:nth-child(2){
+    margin-left: 27vw;
+}
+nav a:nth-child(6){
+    background-color: #590209;
+    color: #F8F6E9;
+}
+#uno article,#dos article,#siete article{
+    display: flex;
+    flex: 0 0 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#uno article h2{
+    font-size: 3vh;
+}
+section a{
+    width: 100px;
+    height: 50px;
+    border: solid #590209 1px;
+    background-color: transparent;
+    margin-top: 50px;
+}
+#dos{
+    background-color: white;
+}
+#tres,#cinco,#ocho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+}
+#tres section article,#cinco section article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5vw;
+    margin-top: -50px;
+    height: 500px;
+    width: 25vw;
+    flex-direction: column;
+}
+#tres img{
+    height: 100px;
+}
+#tres a{
+    height: 60px;
+}
+#cinco{
+    background-color: white ;
+}
+#cinco img{
+    height: 200px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    height: 200px;
+    padding: 25px;
+}
+footer #triangulo{
+    margin-top: 15px;
+    border-bottom-color: white;
+}
+footer #circulo{
+    background-color: #590209;
+}
+footer p:nth-child(1){
+    font-family: 'Merienda';
+}
+form article{
+    border: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+form article input{
+    width: 20px;
+    height: 20px;
+    margin-right: 2vw;
+}
+form button{
+    width: 100%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+}
+form section{
+    display: flex;
+    height: 60px;
+    width: 51.5vw;
+}
+form section input{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #800000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    resize: vertical;
+}
+button {
+    background-color: #800000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #a00000;
+}
+
